@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #000000,
+    #7a0000,
+    #d4af37
+  );
+
+  font-family: Arial, sans-serif;
+}
+
+.overlay {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  color: gold;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+
+  background: crimson;
+  color: white;
+
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: gold;
+  color: black;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 2rem;
+}
